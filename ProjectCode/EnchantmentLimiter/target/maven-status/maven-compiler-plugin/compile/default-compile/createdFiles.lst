@@ -1,0 +1,9 @@
+org\conquest\enchantmentLimiter\configurationHandler\ConfigurationManager.class
+org\conquest\enchantmentLimiter\responseHandler\MessageResponseManager.class
+org\conquest\enchantmentLimiter\configurationHandler\configurationFiles\ConfigFile.class
+org\conquest\enchantmentLimiter\commandHandler\CommandManager.class
+org\conquest\enchantmentLimiter\EnchantmentLimiter.class
+org\conquest\enchantmentLimiter\responseHandler\MessageModels.class
+org\conquest\enchantmentLimiter\responseHandler\MiniMessageManager.class
+org\conquest\enchantmentLimiter\configurationHandler\configurationFiles\MessagesFile.class
+org\conquest\enchantmentLimiter\commandHandler\AutoTabManager.class

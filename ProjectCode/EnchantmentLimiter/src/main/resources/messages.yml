@@ -1,0 +1,18 @@
+prefix: "<gray>[<aqua>EnchantmentLimiter</aqua>]</gray> "
+
+# ✅ Success messages
+reload-success: "<green>Configuration reloaded successfully.</green>"
+edit-success: "<green>Successfully updated <yellow><enchant></yellow> <gray>(<blue><type></blue>)</gray> to <blue><value></blue></green>"
+
+# ❌ Failure messages
+reload-fail: "<red>Failed to reload configuration. Check console for details.</red>"
+edit-fail: "<red>Could not update <yellow><enchant></yellow> <gray>(<blue><type></blue>)</gray>. Please check your input.</red>"
+
+# 🚫 Permission and usage
+no-permission: "<red>You do not have permission to use this command.</red>"
+invalid-command: "<red>Invalid command usage. Try <yellow>/enchantlimiter reload</yellow> or <yellow>/enchantlimiter <enchant> <min|max> <value></yellow></red>"
+invalid-enchant: "<red>Unknown enchantment: <yellow><enchant></yellow></red>"
+invalid-value: "<red>Invalid value: <yellow><value></yellow>. Must be a number.</red>"
+
+# 🧪 Debug / utility
+current-limit: "<yellow><enchant></yellow> <gray>→ Min: <blue><min></blue> | Max: <blue><max></blue></gray>"
