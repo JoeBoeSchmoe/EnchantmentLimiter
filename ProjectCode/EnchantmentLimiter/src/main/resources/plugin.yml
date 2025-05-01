@@ -1,0 +1,4 @@
+name: EnchantmentLimiter
+version: '1.0-SNAPSHOT'
+main: org.conquest.enchantmentLimiter.EnchantmentLimiter
+api-version: '1.21'
