@@ -6,9 +6,26 @@ author: Conquest Coder
 description: A plugin that handles limiting player enchantments from anvil and enchantment table
 
 commands:
-  el:
+  enchantmentlimiter:
     description: Base command for EnchantmentLimiter
     usage: /<command>
-    aliases: [enchantmentlimiter]
+    aliases: [el, enchantlimiter]
     permission: enchantmentlimiter.command
     permission-message: You do not have permission to use this command.
+
+permissions:
+  enchantmentlimiter.command:
+    description: Base permission for using /el or /enchantlimiter
+    default: true
+
+  enchantmentlimiter.admin:
+    description: Allows full administrative access to reload and edit enchantment limits
+    default: op
+
+  enchantmentlimiter.edit:
+    description: Allows changing enchantment min/max values via command
+    default: op
+
+  enchantmentlimiter.reload:
+    description: Allows reloading plugin configuration via command
+    default: op

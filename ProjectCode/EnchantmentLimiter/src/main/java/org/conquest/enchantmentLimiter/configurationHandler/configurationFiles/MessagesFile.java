@@ -33,9 +33,9 @@ public class MessagesFile {
                 try (InputStream in = plugin.getResource("messages.yml")) {
                     if (in != null) {
                         Files.copy(in, file.toPath());
-                        log.info("📄 Created default messages.yml");
+                        log.info("📄  Created default messages.yml");
                     } else {
-                        log.warning("⚠️ Missing embedded messages.yml in plugin jar!");
+                        log.warning("⚠️  Missing embedded messages.yml in plugin jar!");
                     }
                 }
             }
@@ -43,7 +43,7 @@ public class MessagesFile {
             this.config = YamlConfiguration.loadConfiguration(file);
             validate();
 
-            log.info("✅ Loaded messages.yml");
+            log.info("✅  Loaded messages.yml");
 
         } catch (Exception e) {
             log.severe("❌  Failed to load messages.yml: " + e.getMessage());

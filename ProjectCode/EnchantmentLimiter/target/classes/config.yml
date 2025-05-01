@@ -1,0 +1,139 @@
+limits:
+  armor:
+    protection:
+      min: 1
+      max: 4
+    fire_protection:
+      min: 1
+      max: 4
+    blast_protection:
+      min: 1
+      max: 4
+    projectile_protection:
+      min: 1
+      max: 4
+    respiration:
+      min: 1
+      max: 3
+    aqua_affinity:
+      min: 1
+      max: 1
+    thorns:
+      min: 1
+      max: 3
+    depth_strider:
+      min: 1
+      max: 3
+    frost_walker:
+      min: 1
+      max: 2
+    soul_speed:
+      min: 1
+      max: 3
+    swift_sneak:
+      min: 1
+      max: 3
+
+  weapons:
+    sharpness:
+      min: 1
+      max: 5
+    smite:
+      min: 1
+      max: 5
+    bane_of_arthropods:
+      min: 1
+      max: 5
+    knockback:
+      min: 1
+      max: 2
+    fire_aspect:
+      min: 1
+      max: 2
+    looting:
+      min: 1
+      max: 3
+    sweeping_edge:
+      min: 1
+      max: 3
+    density:
+      min: 1
+      max: 5
+    breach:
+      min: 1
+      max: 4
+    wind_burst:
+      min: 1
+      max: 3
+
+  tools:
+    efficiency:
+      min: 1
+      max: 5
+    silk_touch:
+      min: 1
+      max: 1
+    fortune:
+      min: 1
+      max: 3
+
+  bows:
+    power:
+      min: 1
+      max: 5
+    punch:
+      min: 1
+      max: 2
+    flame:
+      min: 1
+      max: 1
+    infinity:
+      min: 1
+      max: 1
+
+  crossbows:
+    multishot:
+      min: 1
+      max: 1
+    piercing:
+      min: 1
+      max: 4
+    quick_charge:
+      min: 1
+      max: 3
+
+  tridents:
+    loyalty:
+      min: 1
+      max: 3
+    riptide:
+      min: 1
+      max: 3
+    channeling:
+      min: 1
+      max: 1
+    impaling:
+      min: 1
+      max: 5
+
+  fishing_rod:
+    luck_of_the_sea:
+      min: 1
+      max: 3
+    lure:
+      min: 1
+      max: 3
+
+  universal:
+    unbreaking:
+      min: 1
+      max: 3
+    mending:
+      min: 1
+      max: 1
+    binding_curse:
+      min: 1
+      max: 1
+    vanishing_curse:
+      min: 1
+      max: 1

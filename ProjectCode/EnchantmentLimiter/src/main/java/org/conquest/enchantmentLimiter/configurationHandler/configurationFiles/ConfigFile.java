@@ -3,28 +3,35 @@ package org.conquest.enchantmentLimiter.configurationHandler.configurationFiles;
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.configuration.file.YamlConfiguration;
 import org.bukkit.plugin.java.JavaPlugin;
+import org.conquest.enchantmentLimiter.enchantmentHandler.EnchantmentRegistry;
 
 import java.io.File;
 import java.io.InputStream;
 import java.nio.file.Files;
 import java.util.logging.Logger;
 
+/**
+ * 📁 ConfigFile
+ * Manages config.yml and populates the enchantment registry.
+ */
 public class ConfigFile {
 
     private final JavaPlugin plugin;
     private final Logger log;
-
     private final File file;
     private FileConfiguration config;
+
+    private final EnchantmentRegistry enchantmentRegistry;
 
     public ConfigFile(JavaPlugin plugin) {
         this.plugin = plugin;
         this.log = plugin.getLogger();
         this.file = new File(plugin.getDataFolder(), "config.yml");
+        this.enchantmentRegistry = new EnchantmentRegistry(); // Init the registry
     }
 
     /**
-     * Loads or reloads config.yml from disk.
+     * Loads or reloads config.yml from disk and updates registry.
      */
     public void reload() {
         try {
@@ -43,7 +50,10 @@ public class ConfigFile {
             this.config = YamlConfiguration.loadConfiguration(file);
             validate();
 
-            log.info("✅  Loaded config.yml");
+            // 🧠 Populate the registry now
+            enchantmentRegistry.loadFromConfig();
+
+            log.info("✅  Loaded config.yml and enchantment registry");
 
         } catch (Exception e) {
             log.severe("❌  Failed to load config.yml: " + e.getMessage());
@@ -66,5 +76,9 @@ public class ConfigFile {
 
     public FileConfiguration get() {
         return config;
+    }
+
+    public EnchantmentRegistry getEnchantmentRegistry() {
+        return enchantmentRegistry;
     }
 }

@@ -23,7 +23,11 @@ public enum MessageModels {
     INVALID_VALUE("invalid-value"),
 
     // 🧪 Utility
-    CURRENT_LIMIT("current-limit");
+    CURRENT_LIMIT("current-limit"),
+
+    // ⚠️ Warnings
+    MIN_OVERRIDES_MAX("min-overrides-max"),
+    MAX_BELOW_MIN("max-below-min");
 
     private final String path;
 

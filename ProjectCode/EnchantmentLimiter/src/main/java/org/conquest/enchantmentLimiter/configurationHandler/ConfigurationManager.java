@@ -14,13 +14,16 @@ import java.util.logging.Logger;
  */
 public class ConfigurationManager {
 
-    private final EnchantmentLimiter plugin = EnchantmentLimiter.getInstance();
-    private final Logger log = plugin.getLogger();
+    private final EnchantmentLimiter plugin;
+    private final Logger log;
 
     private final ConfigFile configFile;
     private final MessagesFile messagesFile;
 
-    public ConfigurationManager() {
+    public ConfigurationManager(EnchantmentLimiter plugin) {
+        this.plugin = plugin;
+        this.log = plugin.getLogger();
+
         this.configFile = new ConfigFile(plugin);
         this.messagesFile = new MessagesFile(plugin);
     }
@@ -32,15 +35,15 @@ public class ConfigurationManager {
         try {
             File dataFolder = plugin.getDataFolder();
             if (!dataFolder.exists() && !dataFolder.mkdirs()) {
-                log.warning("⚠️ Failed to create plugin data folder: " + dataFolder.getAbsolutePath());
+                log.warning("⚠️  Failed to create plugin data folder: " + dataFolder.getAbsolutePath());
             }
 
             configFile.reload();
             messagesFile.reload();
 
-            log.info("✅ Configuration initialization complete.");
+            log.info("✅  Configuration initialization complete.");
         } catch (Exception e) {
-            log.severe("❌ Failed to initialize configuration: " + e.getMessage());
+            log.severe("❌  Failed to initialize configuration: " + e.getMessage());
         }
     }
 

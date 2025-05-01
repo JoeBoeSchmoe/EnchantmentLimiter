@@ -3,7 +3,12 @@ C:\Users\josep\OneDrive\Desktop\EnchantmentLimiter\EnchantmentLimiter\ProjectCod
 C:\Users\josep\OneDrive\Desktop\EnchantmentLimiter\EnchantmentLimiter\ProjectCode\EnchantmentLimiter\src\main\java\org\conquest\enchantmentLimiter\configurationHandler\configurationFiles\ConfigFile.java
 C:\Users\josep\OneDrive\Desktop\EnchantmentLimiter\EnchantmentLimiter\ProjectCode\EnchantmentLimiter\src\main\java\org\conquest\enchantmentLimiter\configurationHandler\configurationFiles\MessagesFile.java
 C:\Users\josep\OneDrive\Desktop\EnchantmentLimiter\EnchantmentLimiter\ProjectCode\EnchantmentLimiter\src\main\java\org\conquest\enchantmentLimiter\configurationHandler\ConfigurationManager.java
+C:\Users\josep\OneDrive\Desktop\EnchantmentLimiter\EnchantmentLimiter\ProjectCode\EnchantmentLimiter\src\main\java\org\conquest\enchantmentLimiter\enchantmentHandler\EnchantmentLimitModel.java
+C:\Users\josep\OneDrive\Desktop\EnchantmentLimiter\EnchantmentLimiter\ProjectCode\EnchantmentLimiter\src\main\java\org\conquest\enchantmentLimiter\enchantmentHandler\EnchantmentRegistry.java
 C:\Users\josep\OneDrive\Desktop\EnchantmentLimiter\EnchantmentLimiter\ProjectCode\EnchantmentLimiter\src\main\java\org\conquest\enchantmentLimiter\EnchantmentLimiter.java
 C:\Users\josep\OneDrive\Desktop\EnchantmentLimiter\EnchantmentLimiter\ProjectCode\EnchantmentLimiter\src\main\java\org\conquest\enchantmentLimiter\responseHandler\MessageModels.java
 C:\Users\josep\OneDrive\Desktop\EnchantmentLimiter\EnchantmentLimiter\ProjectCode\EnchantmentLimiter\src\main\java\org\conquest\enchantmentLimiter\responseHandler\MessageResponseManager.java
 C:\Users\josep\OneDrive\Desktop\EnchantmentLimiter\EnchantmentLimiter\ProjectCode\EnchantmentLimiter\src\main\java\org\conquest\enchantmentLimiter\responseHandler\MiniMessageManager.java
+C:\Users\josep\OneDrive\Desktop\EnchantmentLimiter\EnchantmentLimiter\ProjectCode\EnchantmentLimiter\src\main\java\org\conquest\enchantmentLimiter\restrictionHandler\AnvilListener.java
+C:\Users\josep\OneDrive\Desktop\EnchantmentLimiter\EnchantmentLimiter\ProjectCode\EnchantmentLimiter\src\main\java\org\conquest\enchantmentLimiter\restrictionHandler\EnchantmentTableListener.java
+C:\Users\josep\OneDrive\Desktop\EnchantmentLimiter\EnchantmentLimiter\ProjectCode\EnchantmentLimiter\src\main\java\org\conquest\enchantmentLimiter\restrictionHandler\InventoryListener.java

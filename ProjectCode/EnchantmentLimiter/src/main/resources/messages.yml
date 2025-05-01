@@ -14,5 +14,6 @@ invalid-command: "<red>Invalid command usage. Try <yellow>/enchantlimiter reload
 invalid-enchant: "<red>Unknown enchantment: <yellow><enchant></yellow></red>"
 invalid-value: "<red>Invalid value: <yellow><value></yellow>. Must be a number.</red>"
 
-# 🧪 Debug / utility
-current-limit: "<yellow><enchant></yellow> <gray>→ Min: <blue><min></blue> | Max: <blue><max></blue></gray>"
+# ⚠️ Conflicts and overrides
+min-overrides-max: "<yellow>Note:</yellow> The new <blue>min</blue> level overrides current <blue>max</blue>. Consider adjusting it."
+max-below-min: "<yellow>Note:</yellow> The new <blue>max</blue> is below the current <blue>min</blue>. Consider adjusting it."
